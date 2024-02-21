@@ -24,7 +24,7 @@ body {
   }
   
   nav ul li a {
-    color: #fff;
+    color: #28522e;
     text-decoration: none;
     
   }
@@ -38,26 +38,42 @@ body {
   }
   
   .miJumbo {
-    background-color: #f0f0f0;
+    background-color: #99999927;
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Cambiado a flex-start */
     text-align: left; /* Cambiado a left */
+    border-radius: 18px;
   }
+  .barra {
+    /* Estilos personalizados para el input */
+    background-color: #000000; /* Cambia el color de fondo */
+    border: 1px solid #dbdbdb; /* Cambia el borde */
+    padding: 8px; /* Cambia el espacio interno */
+    font-size: 14px; /* Cambia el tamaño de la fuente */
+    color: #dbdbdb; /* Cambia el color del texto */
+    border-radius: 8px; /* Agrega bordes redondeados */
+    box-shadow: none; /* Quita la sombra */
+    /* Agrega más estilos según tus necesidades */
+  }
+  
   
   .miJumbo h1 {
     font-size: 24px;
-    color: #333;
+    color: #dbdbdb;
     margin: 0; /* Añadido para quitar el margen predeterminado del h1 */
   }
   
   .miJumbo label {
-    color: #666;
+    color: #dbdbdb;
     font-size: 14px;
     margin: 0; /* Añadido para quitar el margen predeterminado del label */
   }
-  
+  body {
+    background-color: black;
+}
+
   
   input[type="text"],
   input[type="button"] {
@@ -66,10 +82,10 @@ body {
   }
   
   input[type="button"] {
-    background-color: #333;
+    background-color: #28522e;
     color: #fff;
     border-radius: 8px;
-    
+    border: none;
     cursor: pointer;
   }
   
